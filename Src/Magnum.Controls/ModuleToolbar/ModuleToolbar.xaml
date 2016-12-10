@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="Magnum.Controls.ModuleToolbar.ModuleToolbar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:Breadcrumb="clr-namespace:Magnum.Controls.Breadcrumb"
+             xmlns:SearchBox="clr-namespace:Magnum.Controls.SearchBox"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Height="26">
+  <UserControl.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Magnum.IconLibrary;component/BitmapImages.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+
+      <BooleanToVisibilityConverter x:Key="booleanToVisibilityConverter" />
+    </ResourceDictionary>
+  </UserControl.Resources>
+
+  <DockPanel Background="{DynamicResource ToolbarBackgroundBrush}">
+    <Button DockPanel.Dock="Left"
+              HorizontalAlignment="Stretch"
+					            HorizontalContentAlignment="Stretch"
+                      Padding="3"
+                      Style="{DynamicResource TransparentButton}"
+                      IsHitTestVisible="True"
+                      Command="{Binding BackCommand}">
+      <Image Height="12" Width="12" Margin="5,0,5,0">
+        <Image.Style>
+          <Style TargetType="{x:Type Image}">
+            <Setter Property="Source" Value="{StaticResource Back_16x16}"/>
+            <Style.Triggers>
+              <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}}, Path=IsEnabled}" Value="True">
+                <Setter Property="Source" Value="{StaticResource BackHighlight_16x16}"/>
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </Image.Style>
+      </Image>
+    </Button>
+    <Button DockPanel.Dock="Left"
+              HorizontalAlignment="Stretch"
+					            HorizontalContentAlignment="Stretch"
+                      Padding="3"
+                      Style="{DynamicResource TransparentButton}"
+                      IsHitTestVisible="True"
+                      Command="{Binding NextCommand}">
+      <Image Height="12" Width="12" Margin="5,0,5,0">
+        <Image.Style>
+          <Style TargetType="{x:Type Image}">
+            <Setter Property="Source" Value="{StaticResource Next_16x16}"/>
+            <Style.Triggers>
+              <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}}, Path=IsEnabled}" Value="True">
+                <Setter Property="Source" Value="{StaticResource NextHighlight_16x16}"/>
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </Image.Style>
+      </Image>
+    </Button>
+
+    <SearchBox:SearchBox x:Name="_SearchBox"
+                         Margin="0,0,1,0"
+                         DockPanel.Dock="Right"
+                         Height="24"
+                         Width="160"
+                        Search="_SearchBox_Search"
+                        PreviewKeyDown="_SearchBox_PreviewKeyDown"
+                        LabelText="Search"
+                         SearchMode="Instant"
+                        Visibility="{Binding IsSearchBoxVisible, Converter={StaticResource booleanToVisibilityConverter}, UpdateSourceTrigger=PropertyChanged}"/>
+
+    <Breadcrumb:Breadcrumb x:Name="_Breadcrumb"  Height="24" Margin="3,1,3,1"
+                          RootItem="{Binding Root}"
+                           SelectedPathValue="{Binding CurrentlySelectedItem.Value, Mode=TwoWay}"
+                        Visibility="{Binding IsBreadcrumbVisible, Converter={StaticResource booleanToVisibilityConverter}, UpdateSourceTrigger=PropertyChanged}">
+      <Breadcrumb:Breadcrumb.IconTemplate>
+        <DataTemplate>
+          <Image Width="16" Height="16" Source="{Binding Icon}" />
+        </DataTemplate>
+      </Breadcrumb:Breadcrumb.IconTemplate>
+      <Breadcrumb:Breadcrumb.HeaderTemplate>
+        <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+          <TextBlock Foreground="{DynamicResource TextBrush}" Text="{Binding Title}" Margin="5,0"
+                     VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+        </HierarchicalDataTemplate>
+      </Breadcrumb:Breadcrumb.HeaderTemplate>
+    </Breadcrumb:Breadcrumb>
+
+  </DockPanel>
+</UserControl>

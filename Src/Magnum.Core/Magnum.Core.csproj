@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D516B466-4449-48EE-872A-F540174CD4E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magnum.Core</RootNamespace>
+    <AssemblyName>Magnum.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\..\..\Revolver\Libs\Extern\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Wpf.AvalonDock">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\CancelRoutedEventArgs.cs" />
+    <Compile Include="Args\WindowClosingEventArgs.cs" />
+    <Compile Include="Attributes\FileContentAttribute.cs" />
+    <Compile Include="Collections\AbstractPrioritizedTree.cs" />
+    <Compile Include="Events\ActiveContentChanged.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\LogEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\OpenContentEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\RibbonClosingEvent.cs" />
+    <Compile Include="Events\SplashCloseEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\SplashMessageUpdateEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\StatusBarClosingEvent.cs" />
+    <Compile Include="Events\ThemeChangeEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Events\ToolSettingsChangeEvent.cs" />
+    <Compile Include="Events\WindowClosingEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensions\LazySupportExtension.cs" />
+    <Compile Include="Extensions\ObservableCollectionExtension.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensions\XmlAttributesOverrideExtension.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input\InputValidationErrorEventArgs.cs" />
+    <Compile Include="Input\IValidateInput.cs" />
+    <Compile Include="Managers\CommandManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Managers\XmlManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\DocumentModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\IModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\IQuickLaunch.cs" />
+    <Compile Include="Models\ITool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\IToolsLibrary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ToolModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Natives\APPBARDATA.cs" />
+    <Compile Include="Natives\MARGINS.cs" />
+    <Compile Include="Natives\MONITORINFO.cs" />
+    <Compile Include="Natives\POINT.cs" />
+    <Compile Include="Natives\RECT.cs" />
+    <Compile Include="Natives\UnsafeNativeMethods.cs" />
+    <Compile Include="Natives\WINDOWPLACEMENT.cs" />
+    <Compile Include="Primitives\HsvColor.cs" />
+    <Compile Include="Primitives\InputBase.cs" />
+    <Compile Include="Primitives\MouseWheelActiveTriggerEnum.cs" />
+    <Compile Include="Primitives\WindowControl.cs" />
+    <Compile Include="Services\CommandableBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ContentHandlerRegistry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ICommandable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ICommandManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IContentHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IContentHandlerRegistry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IItemType.cs" />
+    <Compile Include="Services\ILoggerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IMenuService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IOpenFileService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IProgressBarService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IRibbonService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ISearchable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IStatusBarService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ITheme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\IThemeManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\ITreeNodeItem.cs" />
+    <Compile Include="Services\IUndoableCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\MenuItemBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\OpenFileService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\PaneLocation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\RibbonService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Services\UndoableCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ColorUtilities.cs" />
+    <Compile Include="Utils\ContextMenuUtilities.cs" />
+    <Compile Include="Utils\DoubleHelper.cs" />
+    <Compile Include="Utils\ErrorMessages.cs" />
+    <Compile Include="Utils\FontUtilities.cs" />
+    <Compile Include="Utils\GeneralUtilities.cs" />
+    <Compile Include="Utils\KeyboardUtilities.cs" />
+    <Compile Include="Utils\ListUtilities.cs" />
+    <Compile Include="Utils\PropertyChangedExt.cs" />
+    <Compile Include="Utils\ReflectionHelper.cs" />
+    <Compile Include="Utils\Segment.cs" />
+    <Compile Include="Utils\StringUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\WeakEventListener.cs" />
+    <Compile Include="ViewModels\DocumentViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\MenuItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\QuickLaunchViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\RibbonItemTemplateSelector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\RibbonItemViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\ToolsLibraryViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\ToolViewModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\TreeNodeViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Views\IDocumentView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ApplicationModel\Application.cs" />
+    <Compile Include="Collections\IPrioritizedTree.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\IDockingManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\IShell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\IToolWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\IWorkspace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\RibbonSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\SettingsBase.cs" />
+    <Compile Include="Windows\StatusBarSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\ThemeSettings.cs" />
+    <Compile Include="Windows\ToolSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\WindowSettings.cs" />
+    <Compile Include="Windows\Workspace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Windows\WorkspaceBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utils\ErrorMessages.resx">
+      <DependentUpon>ErrorMessages.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

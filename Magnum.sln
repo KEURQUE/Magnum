@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnum.Core", "Src\Magnum.Core\Magnum.Core.csproj", "{D516B466-4449-48EE-872A-F540174CD4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnum.Controls", "Src\Magnum.Controls\Magnum.Controls.csproj", "{A0E3A3CD-8525-41C9-9001-A1AE526F4716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnum.IconLibrary", "Src\Magnum.IconLibrary\Magnum.IconLibrary.csproj", "{3EB2D30F-7D9C-46ED-AC71-F9137258695E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magnum.Tools", "Src\Magnum.Tools\Magnum.Tools.csproj", "{41CC6904-2900-46CB-A120-FA5859486E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D516B466-4449-48EE-872A-F540174CD4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D516B466-4449-48EE-872A-F540174CD4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D516B466-4449-48EE-872A-F540174CD4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D516B466-4449-48EE-872A-F540174CD4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E3A3CD-8525-41C9-9001-A1AE526F4716}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A0E3A3CD-8525-41C9-9001-A1AE526F4716}.Debug|Any CPU.Build.0 = Debug|x86
+		{A0E3A3CD-8525-41C9-9001-A1AE526F4716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E3A3CD-8525-41C9-9001-A1AE526F4716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EB2D30F-7D9C-46ED-AC71-F9137258695E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB2D30F-7D9C-46ED-AC71-F9137258695E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB2D30F-7D9C-46ED-AC71-F9137258695E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB2D30F-7D9C-46ED-AC71-F9137258695E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CC6904-2900-46CB-A120-FA5859486E0D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{41CC6904-2900-46CB-A120-FA5859486E0D}.Debug|Any CPU.Build.0 = Debug|x86
+		{41CC6904-2900-46CB-A120-FA5859486E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CC6904-2900-46CB-A120-FA5859486E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

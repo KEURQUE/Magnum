@@ -1,0 +1,214 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit">
+
+  <Color x:Key="MainWindowBackgroundColor">#FFEFEFF2</Color>
+  <Color x:Key="MainWindowInnerBackgroundColor">#FFf5f5f5</Color>
+  <Color x:Key="ToolbarBackgroundColor">#cccedb</Color>
+  <Color x:Key="ToolbarInnerBackgroundColor">#FFffffff</Color>
+  <Color x:Key="ToolbarBorderColor">#cccedb</Color>
+  <Color x:Key="SearchTextBarMouseOverBackgroundColor">#FFffffff</Color>
+  
+  <Color x:Key="TextColor">Black</Color>
+  <Color x:Key="InverseTextColor">White</Color>
+  <Color x:Key="DisabledTextColor">#9a9a9a</Color>
+  
+  <Color x:Key="AccentColor">#007ACC</Color>
+  <Color x:Key="AccentHighlightColor">#1C97EA</Color>
+  <Color x:Key="AccentDoubleHighlightColor">#52B0EF</Color>
+  <Color x:Key="AccentTripleHighlightColor">#1C97EA</Color>
+  
+  <Color x:Key="GlowColor">#007ACC</Color>
+  
+  <Color x:Key="ControlTextColor">Black</Color>
+  <Color x:Key="ControlHighlightedColor">#cccedb</Color>
+  <Color x:Key="ControlOpenColor">#1B1B1C</Color>
+  
+  <Color x:Key="SeparatorColor">#333337</Color>
+  <Color x:Key="SplitterColor">#3F3F46</Color>
+
+  <Color x:Key="DragUnselected">#FF999999</Color>
+  <Color x:Key="DragSelected">#FF59A8DE</Color>
+
+  <!-- Main Colors -->
+  <Color x:Key="MainColor">#cccedb</Color>
+  <Color x:Key="HoverColor">#FFAAAAAA</Color>
+  <Color x:Key="DefaultColor">#FF9BB1C5</Color>
+  <Color x:Key="LightColor">#FFAFAFAF</Color>
+  <Color x:Key="ShadeColor">#FF9F9F9F</Color>
+  <Color x:Key="GlyphColor">#FFFFFFFF</Color>
+
+  <Color x:Key="DisabledBackgroundColor">#FFD4D4D4</Color>
+  <Color x:Key="TopGradientSelectColor">#FFFFFFFF</Color>
+  <Color x:Key="BottomGradientSelectColor">#FF999999</Color>
+
+  <Color x:Key="BlackColor">#FF000000</Color>
+  <Color x:Key="WhiteColor">#FFFFFFFF</Color>
+  <Color x:Key="NormalBorderColor">#FF9B9999</Color>
+
+  <!--Fonts-->
+  <FontFamily x:Key="HeaderFontFamily">
+    Segoe UI, Segoe UI Light, Lucida Sans Unicode, Verdana
+  </FontFamily>
+
+  <!--Shadow-->
+  <DropShadowEffect x:Key="StandardDropShadow" ShadowDepth="3" Opacity="0.6" Direction="305" />
+
+  <!-- Patterns -->
+  <SolidColorBrush x:Key="DarkSquareColor" Color="#18000000" />
+  <SolidColorBrush x:Key="LightSquareColor" Color="#34000000" />
+  <SolidColorBrush x:Key="DarkGrayOverlay" Color="#B1EAEAEA"/>
+
+  <DrawingBrush x:Key="CheckeredPattern" Viewport="0,0,20,20" ViewportUnits="Absolute" Stretch="None" TileMode="Tile">
+    <DrawingBrush.Drawing>
+      <DrawingGroup>
+        <GeometryDrawing Brush="{DynamicResource DarkSquareColor}">
+          <GeometryDrawing.Geometry>
+            <GeometryGroup>
+              <RectangleGeometry Rect="0,0,10,10"/>
+              <RectangleGeometry Rect="10,10,10,10"/>
+            </GeometryGroup>
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="{DynamicResource LightSquareColor}">
+          <GeometryDrawing.Geometry>
+            <GeometryGroup>
+              <RectangleGeometry Rect="10,0,10,10"/>
+              <RectangleGeometry Rect="0,10,10,10"/>
+            </GeometryGroup>
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingBrush.Drawing>
+  </DrawingBrush>
+
+  <!-- MessageBox... Need to put styles here because the control is stupid as hell -->
+
+  <Style x:Key="CloseButtonStyle" TargetType="{x:Type Button}">
+    <Setter Property="Background" Value="{DynamicResource WindowTitleColorBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource BlackBrush}" />
+    <Setter Property="HorizontalContentAlignment" Value="Center" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="Margin" Value="0,0,-1,0" />
+    <Setter Property="Width" Value="34" />
+    <Setter Property="Height" Value="34" />
+    <Setter Property="Padding" Value="1" />
+    <Setter Property="Opacity" Value="1" />
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="{x:Type Button}">
+          <Grid x:Name="grid">
+            <Path 
+              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+              Margin="{TemplateBinding Padding}"
+              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+              SnapsToDevicePixels="True"
+              Data="F1M0,0L2,0 5,3 8,0 10,0 6,4 10,8 8,8 5,5 2,8 0,8 4,4 0,0z"
+              Fill="Black" Opacity="1" />
+            <Grid.Style>
+              <Style TargetType="{x:Type Grid}">
+                <Setter Property="Background" Value="{DynamicResource WindowTitleColorBrush}"/>
+                <Style.Triggers>
+                  <DataTrigger Binding="{Binding IsBusy}" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                  </DataTrigger>
+                  <DataTrigger Binding="{Binding IsMessageBoxShowing}" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </Grid.Style>
+          </Grid>
+          <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+              <Setter TargetName="grid" Property="Background"
+                                    Value="{DynamicResource ControlHighlightedColorBrush}" />
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+              <Setter TargetName="grid" Property="Background" Value="{DynamicResource AccentColorBrush}" />
+              <Setter Property="Foreground" Value="{DynamicResource TabBrush}" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="false">
+              <Setter Property="Foreground" Value="#ADADAD" />
+            </Trigger>
+            <Trigger SourceName="grid" Property="Background" Value="Transparent">
+              <Setter Property="Opacity" Value="0.6" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <Style x:Key="ButtonKey" TargetType="{x:Type Button}">
+    <Setter Property="Background" Value="{DynamicResource WindowTitleColorBrush}" />
+    <Setter Property="Foreground" Value="{DynamicResource BlackBrush}" />
+    <Setter Property="HorizontalContentAlignment" Value="Center" />
+    <Setter Property="VerticalContentAlignment" Value="Center" />
+    <Setter Property="Width" Value="24" />
+    <Setter Property="Height" Value="24" />
+    <Setter Property="Padding" Value="0" />
+    <Setter Property="Opacity" Value="1" />
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="{x:Type Button}">
+          <Grid x:Name="grid">
+            <ContentPresenter x:Name="contentPresenter"
+                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                              Margin="{TemplateBinding Padding}"
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                              Content="{TemplateBinding Content}"
+                              ContentTemplate="{TemplateBinding ContentTemplate}"/>
+            <Grid.Style>
+              <Style TargetType="{x:Type Grid}">
+                <Setter Property="Background" Value="{DynamicResource WindowTitleColorBrush}"/>
+                <Style.Triggers>
+                  <DataTrigger Binding="{Binding IsBusy}" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                  </DataTrigger>
+                  <DataTrigger Binding="{Binding IsMessageBoxShowing}" Value="True">
+                    <Setter Property="Background" Value="Transparent"/>
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </Grid.Style>
+          </Grid>
+          <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+              <Setter TargetName="grid" Property="Background"
+                                    Value="{DynamicResource AccentColorBrush}" />
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+              <Setter TargetName="grid" Property="Background" Value="{DynamicResource ControlHighlightedColorBrush}" />
+              <Setter Property="Foreground" Value="{DynamicResource TabBrush}" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="false">
+              <Setter Property="Foreground" Value="#ADADAD" />
+            </Trigger>
+            <Trigger SourceName="grid" Property="Background" Value="Transparent">
+              <Setter Property="Opacity" Value="0.6" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <!-- <Style x:Key="MessageBoxStyle" TargetType="{x:Type xctk:MessageBox}">
+    <Setter Property="Background" Value="#FFEFEFF2" />
+    <Setter Property="BorderBrush" Value="Transparent" />
+    <Setter Property="ButtonRegionBackground" Value="Transparent" />
+    <Setter Property="CaptionForeground" Value="#9a9a9a" />
+    <Setter Property="CaptionShadowBrush" Value="Transparent" />
+    <Setter Property="WindowBorderBrush" Value="#cccedb" />
+    <Setter Property="WindowBackground" Value="#FFEFEFF2" />
+    <Setter Property="WindowOpacity" Value="1" />
+    <Setter Property="Foreground" Value="Black"/>
+    <Setter Property="CloseButtonStyle" Value="{StaticResource CloseButtonStyle}"/>
+    <Setter Property="YesButtonStyle" Value="{StaticResource ButtonKey}"/>
+    <Setter Property="NoButtonStyle" Value="{StaticResource ButtonKey}"/>
+    <Setter Property="CancelButtonStyle" Value="{StaticResource ButtonKey}"/>
+  </Style> -->
+  <!-- End MessageBox styling -->
+
+</ResourceDictionary>

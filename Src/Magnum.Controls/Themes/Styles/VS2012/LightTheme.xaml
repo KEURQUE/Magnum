@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ResourceDictionary.MergedDictionaries>
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/ButtonsGeneric.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/WindowCommands.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/MenuGeneric.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/Brushes.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/VS2012/Light.Colors.xaml" />
+
+    <!-- Generic controls -->
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/ControlsGeneric.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/DevComponentsGeneric.xaml" />
+
+    <!-- Ribbon control -->
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/RibbonGeneric.xaml" />
+
+    <!-- Specific controls -->
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/Common.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Themes/Styles/Glyphs.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Chromes/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/Breadcrumb/Breadcrumb.Resources.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/FilterableTreeView/FilterableTreeView.Resources.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/SearchBox/SearchBox.Resources.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/ButtonSpinner/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/CollectionControl/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/ColorCanvas/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/ColorPicker/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/DateTimeUpDown/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/MultiLineTextEditor/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/NumericUpDown/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/WatermarkTextBox/Themes/Generic.xaml" />
+    <ResourceDictionary Source="pack://application:,,,/Magnum.Controls;component/PropertyGrid/Themes/Generic.xaml" />
+  </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

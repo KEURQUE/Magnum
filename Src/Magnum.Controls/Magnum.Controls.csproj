@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0E3A3CD-8525-41C9-9001-A1AE526F4716}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magnum.Controls</RootNamespace>
+    <AssemblyName>Magnum.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.WPF.Controls, Version=7.5.0.9, Culture=neutral, PublicKeyToken=65042117d0a83cbc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Revolver\Libs\Extern\DotNetBarWPF\DevComponents.WPF.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Fluent">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro, Version=0.11.0.38, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Revolver\Libs\Extern\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Classic" />
+    <Reference Include="RibbonControlsLibrary">
+      <HintPath>..\..\..\Revolver\Libs\Extern\RibbonControlsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Wpf.AvalonDock">
+      <HintPath>..\..\..\Revolver\Libs\Extern\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behaviors\BindableSelectedItemBehavior.cs" />
+    <Compile Include="Breadcrumb\BreacrumbCorePanel.cs" />
+    <Compile Include="Breadcrumb\Breadcrumb.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbBase.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbCore.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbExpander.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbItem.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbOverflowPanel.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbTree.cs" />
+    <Compile Include="Breadcrumb\BreadcrumbTreeItem.cs" />
+    <Compile Include="Breadcrumb\SuggestBox.cs" />
+    <Compile Include="Breadcrumb\SuggestBoxBase.cs" />
+    <Compile Include="ButtonSpinner\Implementation\ButtonSpinner.cs" />
+    <Compile Include="ButtonSpinner\Implementation\SpinDirection.cs" />
+    <Compile Include="ButtonSpinner\Implementation\SpinEventArgs.cs" />
+    <Compile Include="ButtonSpinner\Implementation\Spinner.cs" />
+    <Compile Include="ButtonSpinner\Implementation\ValidSpinDirections.cs" />
+    <Compile Include="Chromes\Implementation\ButtonChrome.cs" />
+    <Compile Include="CollectionControl\Implementation\CollectionControl.cs" />
+    <Compile Include="CollectionControl\Implementation\CollectionControlDialog.xaml.cs">
+      <DependentUpon>CollectionControlDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CollectionControl\Implementation\Converters\NewItemTypesComboBoxConverter.cs" />
+    <Compile Include="CollectionControl\Implementation\ItemAddingEventArgs.cs" />
+    <Compile Include="CollectionControl\Implementation\ItemDeletingEventArgs.cs" />
+    <Compile Include="CollectionControl\Implementation\ItemEventArgs.cs" />
+    <Compile Include="CollectionControl\Implementation\PrimitiveTypeCollectionControl.cs" />
+    <Compile Include="ColorCanvas\Implementation\ColorCanvas.cs" />
+    <Compile Include="ColorCanvas\Implementation\ColorSpectrumSlider.cs" />
+    <Compile Include="ColorPicker\Implementation\ColorItem.cs" />
+    <Compile Include="ColorPicker\Implementation\ColorPicker.cs" />
+    <Compile Include="Converters\ActiveToolConverter.cs" />
+    <Compile Include="Converters\BoolToInsertModeConverter.cs" />
+    <Compile Include="Converters\BoolToProgressStateConverter.cs" />
+    <Compile Include="Converters\BoolToVisibilityCollapsedConverter.cs" />
+    <Compile Include="Converters\ColorBlendConverter.cs" />
+    <Compile Include="Converters\ColorToSolidColorBrushConverter.cs" />
+    <Compile Include="Converters\FlipBoolToVisibilityCollapsedConverter.cs" />
+    <Compile Include="Converters\FlipBoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\IntNullOr0ToVisibilityConverter.cs" />
+    <Compile Include="Converters\InverseBoolConverter.cs" />
+    <Compile Include="Converters\IsCheckedToBrushConverter.cs" />
+    <Compile Include="Converters\IsCheckedToWhiteBrushConverter.cs" />
+    <Compile Include="Converters\LabelNullOrEmptyToMarginConverter.cs" />
+    <Compile Include="Converters\InverseNullObjectToVisibilityConverter.cs" />
+    <Compile Include="Converters\NullObjectToVisibilityConverter.cs" />
+    <Compile Include="Converters\ObjectTypeToNameConverter.cs" />
+    <Compile Include="Converters\StringNullOrEmptyToVisibilityConverter.cs" />
+    <Compile Include="Converters\TreeNodeToImageConverter.cs" />
+    <Compile Include="Converters\VisibilityToBoolConverter.cs" />
+    <Compile Include="DateTimeUpDown\Implementation\DateTimeFormat.cs" />
+    <Compile Include="DateTimeUpDown\Implementation\DateTimeInfo.cs" />
+    <Compile Include="DateTimeUpDown\Implementation\DateTimeParser.cs" />
+    <Compile Include="DateTimeUpDown\Implementation\DateTimePart.cs" />
+    <Compile Include="DateTimeUpDown\Implementation\DateTimeUpDown.cs" />
+    <Compile Include="FilterableTreeView\FilterableTreeView.cs" />
+    <Compile Include="Media\Animation\AnimationRate.cs" />
+    <Compile Include="Media\Animation\AnimationRateConverter.cs" />
+    <Compile Include="Media\Animation\IterativeAnimationEquation.cs" />
+    <Compile Include="Media\Animation\IterativeAnimationEquationDelegate.cs" />
+    <Compile Include="Media\Animation\IterativeEquationConverter.cs" />
+    <Compile Include="Media\Animation\PennerEquation.cs" />
+    <Compile Include="Media\Animation\PennerEquations.cs" />
+    <Compile Include="Media\WindowColors.cs" />
+    <Compile Include="MessageBox\MessageBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModuleToolbar\ModuleToolbar.xaml.cs">
+      <DependentUpon>ModuleToolbar.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MultiLineTextEditor\Implementation\MultiLineTextEditor.cs" />
+    <Compile Include="NumericUpDown\Implementation\AllowedSpecialValuesEnum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\ByteUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\CommonNumericUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\DecimalUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\DoubleUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\IntegerUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\LongUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\NumericUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\SByteUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\ShortUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\SingleUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\UIntegerUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\ULongUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NumericUpDown\Implementation\UShortUpDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyGrid\Implementation\Attributes\ExpandableObjectAttribute.cs" />
+    <Compile Include="PropertyGrid\Implementation\Attributes\IItemsSource.cs" />
+    <Compile Include="PropertyGrid\Implementation\Attributes\ItemsSourceAttribute.cs" />
+    <Compile Include="PropertyGrid\Implementation\Attributes\NewItemTypesAttribute.cs" />
+    <Compile Include="PropertyGrid\Implementation\Attributes\PropertyOrderAttribute.cs" />
+    <Compile Include="PropertyGrid\Implementation\Commands\PropertyGridCommands.cs" />
+    <Compile Include="PropertyGrid\Implementation\Commands\PropertyItemCommands.cs" />
+    <Compile Include="PropertyGrid\Implementation\CommonPropertyExceptionValidationRule.cs" />
+    <Compile Include="PropertyGrid\Implementation\ContainerHelperBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\Converters\EditorTimeSpanConverter.cs" />
+    <Compile Include="PropertyGrid\Implementation\Converters\ExpandableObjectMarginConverter.cs" />
+    <Compile Include="PropertyGrid\Implementation\Converters\ListConverter.cs" />
+    <Compile Include="PropertyGrid\Implementation\Converters\SelectedObjectConverter.cs" />
+    <Compile Include="PropertyGrid\Implementation\CustomPropertyItem.cs" />
+    <Compile Include="PropertyGrid\Implementation\Definitions\EditorDefinitionBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\Definitions\EditorTemplateDefinition.cs" />
+    <Compile Include="PropertyGrid\Implementation\Definitions\PropertyDefinitionBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\DescriptorPropertyDefinition.cs" />
+    <Compile Include="PropertyGrid\Implementation\DescriptorPropertyDefinitionBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\EditorDefinition.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\CheckBoxEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\CollectionEditor.xaml.cs">
+      <DependentUpon>CollectionEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyGrid\Implementation\Editors\ColorEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\ComboBoxEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\EnumComboBoxEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\FontComboBoxEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\ItemsSourceAttributeEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\ITypeEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\PrimitiveTypeCollectionEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\TextBlockEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\TextBoxEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\TimeSpanEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\TypeEditor.cs" />
+    <Compile Include="PropertyGrid\Implementation\Editors\UpDownEditors.cs" />
+    <Compile Include="PropertyGrid\Implementation\FilterInfo.cs" />
+    <Compile Include="PropertyGrid\Implementation\IPropertyContainer.cs" />
+    <Compile Include="PropertyGrid\Implementation\ObjectContainerHelper.cs" />
+    <Compile Include="PropertyGrid\Implementation\ObjectContainerHelperBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\Primitives\UpDownBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyDefinition.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyDefinitionBaseCollection.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyGrid.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyGridUtilities.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyItem.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyItemBase.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyItemCollection.cs" />
+    <Compile Include="PropertyGrid\Implementation\PropertyItemsControl.cs" />
+    <Compile Include="PropertyGrid\Implementation\TargetPropertyType.cs" />
+    <Compile Include="SearchBox\SearchBox.cs" />
+    <Compile Include="TaskbarItemOverlay\TaskbarItemOverlay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Themes\DarkTheme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Themes\LightTheme.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Themes\ResourceKeys.cs" />
+    <Compile Include="Themes\StaticResourceKey.cs" />
+    <Compile Include="Themes\Styles\Brushes.xaml.cs">
+      <DependentUpon>Brushes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Themes\ThemeManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WatermarkTextBox\Implementation\WatermarkTextBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CollectionControl\Images\Delete16.png" />
+    <Content Include="MultiLineTextEditor\Images\Notes16.png" />
+    <Content Include="PropertyGrid\Images\AdvancedProperties11.png" />
+    <Content Include="PropertyGrid\Images\Categorize16.png" />
+    <Resource Include="PropertyGrid\Images\ClearFilter16.png" />
+    <Content Include="PropertyGrid\Images\Database11.png" />
+    <Content Include="PropertyGrid\Images\Inheritance11.png" />
+    <Content Include="PropertyGrid\Images\Local11.png" />
+    <Content Include="PropertyGrid\Images\Resource11.png" />
+    <Resource Include="PropertyGrid\Images\Search_32x32.png" />
+    <Content Include="PropertyGrid\Images\SortAscending16.png" />
+    <Content Include="PropertyGrid\Images\Style11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Magnum.Core\Magnum.Core.csproj">
+      <Project>{d516b466-4449-48ee-872a-f540174cd4e4}</Project>
+      <Name>Magnum.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Magnum.IconLibrary\Magnum.IconLibrary.csproj">
+      <Project>{3eb2d30f-7d9c-46ed-ac71-f9137258695e}</Project>
+      <Name>Magnum.IconLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Breadcrumb\Breadcrumb.Resources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ButtonSpinner\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Chromes\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CollectionControl\Implementation\CollectionControlDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CollectionControl\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ColorCanvas\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ColorPicker\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DateTimeUpDown\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FilterableTreeView\FilterableTreeView.Resources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MessageBox\MessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModuleToolbar\ModuleToolbar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MultiLineTextEditor\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NumericUpDown\Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PropertyGrid\Implementation\Editors\CollectionEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PropertyGrid\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SearchBox\SearchBox.Resources.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\AvalonDockBrushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\Brushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\DevComponentsGeneric.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Styles\ButtonsGeneric.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\Common.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Styles\ControlsGeneric.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\DevComponentsBrushes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\Glyphs.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Styles\MenuGeneric.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\RibbonBindings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\RibbonGeneric.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\VS2012\Dark.Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\VS2012\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\VS2012\Light.Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\VS2012\LightTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Styles\WindowCommands.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WatermarkTextBox\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

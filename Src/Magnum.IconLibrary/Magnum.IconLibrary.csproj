@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EB2D30F-7D9C-46ED-AC71-F9137258695E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magnum.IconLibrary</RootNamespace>
+    <AssemblyName>Magnum.IconLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BitmapImages.xaml.cs">
+      <DependentUpon>BitmapImages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bitmaps.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Bitmaps.resx</DependentUpon>
+    </Compile>
+    <Compile Include="IconType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bitmaps.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Bitmaps.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="BitmapImages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Add_32x32.png" />
+    <Resource Include="Resources\AspectRatio_1610_32x32.png" />
+    <Resource Include="Resources\AspectRatio_169_32x32.png" />
+    <Resource Include="Resources\AspectRatio_43_32x32.png" />
+    <Resource Include="Resources\AspectRatio_54_32x32.png" />
+    <Resource Include="Resources\AspectRatio_Full_32x32.png" />
+    <Resource Include="Resources\BackHighlight_16x16.png" />
+    <Resource Include="Resources\Back_16x16.png" />
+    <Resource Include="Resources\Cancel_32x32.png" />
+    <Resource Include="Resources\Copy_32x32.png" />
+    <Resource Include="Resources\Cut_32x32.png" />
+    <Resource Include="Resources\Edit_16x16.png" />
+    <Resource Include="Resources\Edit_32x32.png" />
+    <Resource Include="Resources\ErrorColor_16x16.png" />
+    <Resource Include="Resources\Error_16x16.png" />
+    <Resource Include="Resources\FavoritesAdd_32x32.png" />
+    <Resource Include="Resources\FavoritesRemove_32x32.png" />
+    <Resource Include="Resources\Favorites_32x32.png" />
+    <Resource Include="Resources\FolderOpen_19x16.png" />
+    <Resource Include="Resources\FolderOpen_38x32.png" />
+    <Resource Include="Resources\Folder_16x16.png" />
+    <Resource Include="Resources\Folder_32x32.png" />
+    <Resource Include="Resources\Game_16x16.png" />
+    <Resource Include="Resources\Game_32x32.png" />
+    <Resource Include="Resources\IconTransparent.png" />
+    <Resource Include="Resources\Information_16x16.png" />
+    <Resource Include="Resources\Information_32x32.png" />
+    <Resource Include="Resources\Left_32x32.png" />
+    <Resource Include="Resources\LightBulb_32x32.png" />
+    <Resource Include="Resources\Map_16x16.png" />
+    <Resource Include="Resources\Map_32x32.png" />
+    <Resource Include="Resources\MessageColor_16x16.png" />
+    <Resource Include="Resources\Message_16x16.png" />
+    <Resource Include="Resources\NextHighlight_16x16.png" />
+    <Resource Include="Resources\Next_16x16.png" />
+    <Resource Include="Resources\Open_32x32.png" />
+    <Resource Include="Resources\Paste_32x32.png" />
+    <Resource Include="Resources\Pause_32x32.png" />
+    <Resource Include="Resources\Play_32x32.png" />
+    <Resource Include="Resources\Redo_32x32.png" />
+    <Resource Include="Resources\Refresh_32x32.png" />
+    <Resource Include="Resources\Remove_16x16.png" />
+    <Resource Include="Resources\Remove_32x32.png" />
+    <Resource Include="Resources\Right_32x32.png" />
+    <Resource Include="Resources\SaveGrey_32x32.png" />
+    <Resource Include="Resources\Save_32x32.png" />
+    <Resource Include="Resources\Search_32x32.png" />
+    <Resource Include="Resources\Settings_16x16.png" />
+    <Resource Include="Resources\Star_32x32.png" />
+    <Resource Include="Resources\Stop_43x32.png" />
+    <Resource Include="Resources\ToolsLibrary_32x32.png" />
+    <Resource Include="Resources\Unavailable_32x32.png" />
+    <Resource Include="Resources\Undo_32x32.png" />
+    <Resource Include="Resources\WarningColor_16x16.png" />
+    <Resource Include="Resources\Warning_16x16.png" />
+    <Resource Include="Resources\World_16x16.png" />
+    <Resource Include="Resources\World_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Entity_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EntityGroup_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\World_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\EntityCreator_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FightEditor_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\PatternCreator_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Viewer_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Logger_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DialogEditor_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BehaviorTreeEditor_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\FeedbackEditor_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\BehaviorTree_128x128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Model_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Texture_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ResourceBrowser_128x128.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

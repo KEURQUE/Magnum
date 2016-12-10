@@ -1,0 +1,245 @@
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for _XceedVersionInfo: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for _XceedVersionInfoCommon: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.AutoSelectBehavior: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.AutoSelectTextBox: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes) or subtype(AutoSelectTextBox in assembly Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.QueryMoveFocusEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.QueryMoveFocusEventArgs: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.UpDownBase`1: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.CommonNumericUpDown`1: type Xceed.Wpf.Toolkit.CommonNumericUpDown`1 unstubbable: unsupported constraint type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.CalculatorCommands: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WindowStartupLocation: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WindowState: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.SpinDirection: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.ValidSpinDirections: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.ItemEventArgs: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.CancelRoutedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Input.InputValidationErrorEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Media.Animation.AnimationRate: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Media.Animation.IterativeAnimationEquationDelegate`1: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Media.Animation.PennerEquation: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Media.Animation.PennerEquations: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Media.WindowColors: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.CachedTextInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.ErrorMessages: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.IndexChangedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Input.KeyModifier: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Input.KeyModifierCollectionConverter: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.HsvColor: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.MouseWheelActiveTrigger: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.FontUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.GeneralUtilities: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.KeyboardUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.ListUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.PropertyChangedExt: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.RoutedEventHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.WeakEventListener`1: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.WindowUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.WeakCollectionChangedWrapper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.AllowedSpecialValues: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.AnimatorConverter: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.Animators: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.ChildEnteredEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.ChildEnteringEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.ChildExitedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.ChildExitingEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.ItemSelectionChangedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Primitives.ValueRangeTextBox: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes) or subtype(ValueRangeTextBox in assembly Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.PropertyChangedEventHandler`1: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Themes.StaticResourceKey: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.CalculatorUtilities: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.ColorUtilities: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.TreeHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.ValueChangeHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.DoubleHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.EllipseHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.PointHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.RectHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.ReflectionHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.ResourceHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.Segment: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.Utilities.VisualTreeHelperEx: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.DateTimeFormat: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.DateTimeInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.DateTimePart: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.DateTimeParser: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.FrameType: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.InsertKeyMode: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.MaskedTextBox: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes) or subtype(MaskedTextBox in assembly Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.MaskFormat: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.SByteUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Mag.Converters.RadiusConverter: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Obselete.MaskedTextBox: type is obsolete.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.UIntegerUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.ULongUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.UShortUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.ScrollHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Panels.SwitchTemplate: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Pie: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PieMode: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.VisualStates: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.CommonPropertyExceptionValidationRule: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.Converters.ListConverter: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.Converters.EditorTimeSpanConverter: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.IPropertyContainer: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItemBase: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.CustomPropertyItem: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyDefinitionBase: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.EditorDefinitionBase: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyDefinitionBaseCollection`1: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.FilterInfo: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.ContainerHelperBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.ObjectContainerHelperBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.DescriptorPropertyDefinitionBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.EditorDefinition: type is obsolete.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.DescriptorPropertyDefinition: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyValueChangedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItemEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItem: type has no family visible contructors.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.Commands.PropertyItemCommands: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.PropertyGridUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.ObjectContainerHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.PropertyGrid.TargetPropertyType: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Core.UIElementAdorner`1: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.RichTextBox: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes) or subtype(RichTextBox in assembly Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Themes.ResourceKeys: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.DateElement: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.OverlapBehavior: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.TimeFormat: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WatermarkTextBox: method System.Windows.FrameworkElement System.Windows.Controls.Primitives.TextBoxBase.CreateRenderScope() unstubbable: method is abstract and could not be stubbed, method signature type is non-visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes) or subtype(WatermarkTextBox in assembly Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WizardCommands: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WizardPageButtonVisibility: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.WizardPageType: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.Zoombox: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewChangedEventHandler: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewConverter: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewKind: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewStack: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewStackMode: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for Xceed.Wpf.Toolkit.Zoombox.ZoomboxZoomOn: type is a value type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for XamlGeneratedNamespace.GeneratedInternalTypeHelper: type is sealed.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>{77B197B6-C964-44EA-B02E-CFA997EF2786}: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for _XceedVersionInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for _XceedVersionInfoCommon: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.AutoSelectBehavior: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.QueryMoveFocusEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Input.IValidateInput: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.CommonNumericUpDown`1: type Xceed.Wpf.Toolkit.CommonNumericUpDown`1 unstubbable: unsupported constraint type.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Calculator+<>c__DisplayClass4: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Calculator+CalculatorButtonType: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Calculator+Operation: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.Selector+ValueEqualityComparer: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.WindowStartupLocation: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.WindowState: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.SpinDirection: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.ValidSpinDirections: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.CollectionControl+ItemAddedRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.CollectionControl+ItemAddingRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.CollectionControl+ItemDeletedRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.CollectionControl+ItemDeletingRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.CancelRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Input.InputValidationErrorEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Media.Animation.AnimationRate+RateType: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Media.Animation.IterativeAnimationEquationDelegate`1: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Media.Animation.PennerEquation+PennerEquationDelegate: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.CachedTextInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.ErrorMessages: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.IndexChangedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Input.KeyModifier: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.HsvColor: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.MouseWheelActiveTrigger: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.FontUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.GeneralUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.KeyboardUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ListUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.PropertyChangedExt: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.RoutedEventHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.WeakEventListener`1: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.WindowUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.WeakCollectionChangedWrapper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.AllowedSpecialValues: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.ChildEnteredEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.ChildEnteringEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.ChildExitedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.ChildExitingEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.IterativeAnimator+DefaultAnimator: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.ItemSelectionChangedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Primitives.ValueRangeTextBox+ValueRangeTextBoxFlags: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.PropertyChangedEventHandler`1: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.CalculatorUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ColorUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ContextMenuUtilities+<>c__DisplayClass2: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.TreeHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ValueChangeHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.DoubleHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.EllipseHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.PointHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.RectHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ReflectionHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.ResourceHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.Utilities.Segment: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimeUpDown+<>c__DisplayClass11: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimeUpDown+<>c__DisplayClass14: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimeFormat: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimeInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimePart: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateTimeParser: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.FrameType: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.InsertKeyMode: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.MaskFormat: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.SByteUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Mag.Converters.RadiusConverter: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Obselete.MaskedTextBox: type is obsolete.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.UIntegerUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.ULongUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.UShortUpDown: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.AnimationPanel+AnimationType: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.AnimationPanel+CacheBits: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.AnimationPanel+ChildState: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.ScrollHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.SwitchPanel+CacheBits: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.SwitchPresenter+<>c__DisplayClass2: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.SwitchPresenter+<>c__DisplayClass4: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.SwitchPresenter+DelaySwitchParams: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Panels.SwitchTemplate+<>c__DisplayClass2: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Pie+CacheBits: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PieMode: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.VisualStates: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.Attributes.IItemsSource: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.CommonPropertyExceptionValidationRule: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.Converters.ListConverter: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.IPropertyContainer: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.FilterInfo: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.ContainerHelperBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.ObjectContainerHelperBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.DescriptorPropertyDefinitionBase: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.Editors.ITypeEditor: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.EditorDefinition: type is obsolete.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.DescriptorPropertyDefinition: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.PropertyValueChangedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItemEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItemCollection+<>c__DisplayClass0: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.PropertyItemCollection+<>c__DisplayClass4: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.PropertyGridUtilities: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.PropertyGrid.ObjectContainerHelper: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.IRichTextBoxFormatBar: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Core.UIElementAdorner`1: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.ITextFormatter: type is an interface.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.DateElement: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.OverlapBehavior: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.TimeFormat: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Wizard+NextRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Wizard+PreviousRoutedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.WizardPageButtonVisibility: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.WizardPageType: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.Zoombox+CacheBits: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.Zoombox+DragAdorner: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.Zoombox+ResizeEdge: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.Zoombox+ViewFinderSelectionConverter: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewChangedEventHandler: type is a delegate.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewKind: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewStack+CacheBits: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewStack+SourceAccess: type is not visible to exported or assembly(Xceed.Wpf.Toolkit.2.0.0.0.Fakes).
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxViewStackMode: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for Xceed.Wpf.Toolkit.Zoombox.ZoomboxZoomOn: type is an enum.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for XamlGeneratedNamespace.GeneratedInternalTypeHelper: type is not supported because of internal limitations.
+D:\Vidya\Magnum\Src\Magnum.Tools\Fakes\Xceed.Wpf.Toolkit.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>{77B197B6-C964-44EA-B02E-CFA997EF2786}: type is not supported because of internal limitations.
